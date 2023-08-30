@@ -227,10 +227,10 @@
       <static>1</static>
     </model>
     <state world_name='default'>
-      <sim_time>92 663000000</sim_time>
-      <real_time>94 297321141</real_time>
-      <wall_time>1693421677 816546865</wall_time>
-      <iterations>92663</iterations>
+      <sim_time>289 168000000</sim_time>
+      <real_time>200 347949562</real_time>
+      <wall_time>1693424512 678781749</wall_time>
+      <iterations>196505</iterations>
       <model name='ground_plane'>
         <pose>0 0 0 0 -0 0</pose>
         <scale>1 1 1</scale>
@@ -242,22 +242,22 @@
         </link>
       </model>
       <model name='robot1_world'>
-        <pose>0.982928 -0.490117 0 0 -0 0</pose>
+        <pose>1.56205 -3.19267 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='Floor_4'>
-          <pose>0.982928 -0.905234 2.5 0 -0 0</pose>
+          <pose>1.56205 -3.60779 2.5 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='Wall_14'>
-          <pose>0.982928 -0.905234 2.5 0 -0 0</pose>
+          <pose>1.56205 -3.60779 2.5 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='Wall_8'>
-          <pose>0.982928 -0.905234 0 0 -0 0</pose>
+          <pose>1.56205 -3.60779 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -269,9 +269,9 @@
     </state>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose>7.19862 -2.83622 1.91288 0 0.275643 2.35619</pose>
-        <view_controller>ortho</view_controller>
-        <projection_type>orthographic</projection_type>
+        <pose>12.9932 -6.65161 4.47647 0 0.275643 2.35619</pose>
+        <view_controller>orbit</view_controller>
+        <projection_type>perspective</projection_type>
       </camera>
     </gui>
   </world>
