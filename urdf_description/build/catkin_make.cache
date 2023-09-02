@@ -1,2 +1,0 @@
-robot1
--DCATKIN_DEVEL_PREFIX=/home/mustaf/Documents/ROS Course/Tasks/urdf_description/devel -DCMAKE_INSTALL_PREFIX=/home/mustaf/Documents/ROS Course/Tasks/urdf_description/install -G Unix Makefiles
